@@ -1,0 +1,11 @@
+pandas
+numpy
+ensure
+python-box
+pyYAML
+flask
+scikit-learn
+tensorflow
+dvc
+
+-e .
