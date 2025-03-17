@@ -1,0 +1,4 @@
+Name: nlohmann_json
+Description: JSON for Modern C++
+Version: 3.11.2
+Cflags: -IC:/Users/Robin Aluma/Desktop/fever_medicines/fever_medicine/Library/include

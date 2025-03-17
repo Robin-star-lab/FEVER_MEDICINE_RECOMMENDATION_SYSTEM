@@ -1,0 +1,124 @@
+{
+  "build": "hd77b12b_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\Robin Aluma\\Anaconda3\\pkgs\\reproc-14.2.4-hd77b12b_2",
+  "files": [
+    "Library/bin/reproc.dll",
+    "Library/include/reproc/drain.h",
+    "Library/include/reproc/export.h",
+    "Library/include/reproc/reproc.h",
+    "Library/include/reproc/run.h",
+    "Library/lib/cmake/reproc/reproc-config-version.cmake",
+    "Library/lib/cmake/reproc/reproc-config.cmake",
+    "Library/lib/cmake/reproc/reproc-targets-release.cmake",
+    "Library/lib/cmake/reproc/reproc-targets.cmake",
+    "Library/lib/pkgconfig/reproc.pc",
+    "Library/lib/reproc.lib"
+  ],
+  "fn": "reproc-14.2.4-hd77b12b_2.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\Robin Aluma\\Anaconda3\\pkgs\\reproc-14.2.4-hd77b12b_2",
+    "type": 1
+  },
+  "md5": "0145436bf5111660b686d3ad7f1b4235",
+  "name": "reproc",
+  "package_tarball_full_path": "C:\\Users\\Robin Aluma\\Anaconda3\\pkgs\\reproc-14.2.4-hd77b12b_2.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/reproc.dll",
+        "path_type": "hardlink",
+        "sha256": "f7dff89ac7b1d46d0698e1110c2e23c55609d42edf0e86b60b5fd4cc44fe5c3b",
+        "sha256_in_prefix": "f7dff89ac7b1d46d0698e1110c2e23c55609d42edf0e86b60b5fd4cc44fe5c3b",
+        "size_in_bytes": 39696
+      },
+      {
+        "_path": "Library/include/reproc/drain.h",
+        "path_type": "hardlink",
+        "sha256": "85c4cf3387d3e3a05a737687d086c9e7cf241f2be9c4f55ddc566a9d1baecb99",
+        "sha256_in_prefix": "85c4cf3387d3e3a05a737687d086c9e7cf241f2be9c4f55ddc566a9d1baecb99",
+        "size_in_bytes": 2931
+      },
+      {
+        "_path": "Library/include/reproc/export.h",
+        "path_type": "hardlink",
+        "sha256": "adaf50bb4c4964fc17295f12d60dd128c7b4a2633b9dfbd1507dce8089371051",
+        "sha256_in_prefix": "adaf50bb4c4964fc17295f12d60dd128c7b4a2633b9dfbd1507dce8089371051",
+        "size_in_bytes": 451
+      },
+      {
+        "_path": "Library/include/reproc/reproc.h",
+        "path_type": "hardlink",
+        "sha256": "4c7bfdc442b8ad363c0c43a5bb8a22f3352fb5df23a302992d8c9933ea9046a4",
+        "sha256_in_prefix": "4c7bfdc442b8ad363c0c43a5bb8a22f3352fb5df23a302992d8c9933ea9046a4",
+        "size_in_bytes": 18656
+      },
+      {
+        "_path": "Library/include/reproc/run.h",
+        "path_type": "hardlink",
+        "sha256": "9979e373828d243e2261039a52a0f695f27b0e5eaf0cda2e00531f46094a2b54",
+        "sha256_in_prefix": "9979e373828d243e2261039a52a0f695f27b0e5eaf0cda2e00531f46094a2b54",
+        "size_in_bytes": 882
+      },
+      {
+        "_path": "Library/lib/cmake/reproc/reproc-config-version.cmake",
+        "path_type": "hardlink",
+        "sha256": "66705510d36b606fadf5f84d2226e33efce790435f5a167d8e3ac3bcee3d46c0",
+        "sha256_in_prefix": "66705510d36b606fadf5f84d2226e33efce790435f5a167d8e3ac3bcee3d46c0",
+        "size_in_bytes": 2830
+      },
+      {
+        "_path": "Library/lib/cmake/reproc/reproc-config.cmake",
+        "path_type": "hardlink",
+        "sha256": "1695aa33f9735fe3d19223481a7e3d5b71f9cced443795481a2c71f75e344fd3",
+        "sha256_in_prefix": "1695aa33f9735fe3d19223481a7e3d5b71f9cced443795481a2c71f75e344fd3",
+        "size_in_bytes": 1137
+      },
+      {
+        "_path": "Library/lib/cmake/reproc/reproc-targets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "9e03aab4a58207ca2e70778cf88cfca4e1ec1c16fa0e8ae92e2db40d34693cdd",
+        "sha256_in_prefix": "9e03aab4a58207ca2e70778cf88cfca4e1ec1c16fa0e8ae92e2db40d34693cdd",
+        "size_in_bytes": 866
+      },
+      {
+        "_path": "Library/lib/cmake/reproc/reproc-targets.cmake",
+        "path_type": "hardlink",
+        "sha256": "72ac5dc9e40b9cd3d8e3dc0fb303c38032c62f6d83a4a48671b29b212759bdfb",
+        "sha256_in_prefix": "72ac5dc9e40b9cd3d8e3dc0fb303c38032c62f6d83a4a48671b29b212759bdfb",
+        "size_in_bytes": 4059
+      },
+      {
+        "_path": "Library/lib/pkgconfig/reproc.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/b/abs_5f3aywj55d/croot/reproc_1714680931441/_h_env",
+        "sha256": "5d5518cc804e9843a8e7cbb3a149b5ed28ad8b64cbff69949a517151b6aa3d83",
+        "sha256_in_prefix": "fa4e53c2e650163243df017d02cdc18d5d5e0e8fde1db6a4ff10ed2f8557f9b5",
+        "size_in_bytes": 359
+      },
+      {
+        "_path": "Library/lib/reproc.lib",
+        "path_type": "hardlink",
+        "sha256": "8fe635127720028b62d6c1a7c06bfdc80cfe775e1378d57463bedf69091aac2b",
+        "sha256_in_prefix": "8fe635127720028b62d6c1a7c06bfdc80cfe775e1378d57463bedf69091aac2b",
+        "size_in_bytes": 6688
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "1244464650edae7ee4a7361e2bff996d40f41a984ce824fb96c911151aa0e7df",
+  "size": 41178,
+  "subdir": "win-64",
+  "timestamp": 1714681024000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/reproc-14.2.4-hd77b12b_2.conda",
+  "version": "14.2.4"
+}

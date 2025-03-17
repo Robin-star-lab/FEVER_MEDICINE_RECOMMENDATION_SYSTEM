@@ -1,7 +1,11 @@
 pandas
 numpy
 ensure
+seaborn
+matplotlib
+pymongo
 python-box
+dataclasses
 pyYAML
 flask
 scikit-learn

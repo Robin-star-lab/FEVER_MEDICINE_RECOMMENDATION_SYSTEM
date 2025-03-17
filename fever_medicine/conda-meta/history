@@ -53,3 +53,64 @@
 +defaults/win-64::traitlets-5.14.3-py312haa95532_0
 +defaults/win-64::zeromq-4.3.5-hd77b12b_0
 # update specs: ['ipykernel']
+==> 2025-03-17 01:55:27 <==
+# cmd: C:\Users\Robin Aluma\Anaconda3\Scripts\conda-script.py install ipykernel
+# conda version: 24.11.2
+-defaults/win-64::ca-certificates-2024.12.31-haa95532_0
+-defaults/win-64::openssl-3.0.15-h827c3e9_0
++defaults/win-64::ca-certificates-2025.2.25-haa95532_0
++defaults/win-64::openssl-3.0.16-h3f729d1_0
+# update specs: ['ipykernel']
+==> 2025-03-17 07:44:10 <==
+# cmd: C:\Users\Robin Aluma\Anaconda3\Scripts\conda-script.py install conda
+# conda version: 24.11.2
+-defaults/noarch::executing-0.8.3-pyhd3eb1b0_0
++defaults/noarch::archspec-0.2.3-pyhd3eb1b0_0
++defaults/noarch::charset-normalizer-3.3.2-pyhd3eb1b0_0
++defaults/noarch::conda-libmamba-solver-25.3.0-pyhd3eb1b0_0
++defaults/noarch::jsonpointer-2.1-pyhd3eb1b0_0
++defaults/noarch::pybind11-abi-5-hd3eb1b0_0
++defaults/noarch::pycparser-2.21-pyhd3eb1b0_0
++defaults/win-64::boltons-24.1.0-py312haa95532_0
++defaults/win-64::brotli-python-1.0.9-py312h5da7b33_9
++defaults/win-64::certifi-2025.1.31-py312haa95532_0
++defaults/win-64::cffi-1.17.1-py312h827c3e9_1
++defaults/win-64::conda-25.1.1-py312haa95532_0
++defaults/win-64::conda-package-handling-2.4.0-py312haa95532_0
++defaults/win-64::conda-package-streaming-0.11.0-py312haa95532_0
++defaults/win-64::cpp-expected-1.1.0-h214f63a_0
++defaults/win-64::distro-1.9.0-py312haa95532_0
++defaults/win-64::fmt-9.1.0-h6d14046_1
++defaults/win-64::frozendict-2.4.2-py312haa95532_0
++defaults/win-64::idna-3.7-py312haa95532_0
++defaults/win-64::jsonpatch-1.33-py312haa95532_1
++defaults/win-64::libarchive-3.7.7-h9243413_0
++defaults/win-64::libcurl-8.12.1-h9da9810_0
++defaults/win-64::libiconv-1.16-h2bbff1b_3
++defaults/win-64::libmamba-2.0.5-hcd6fe79_1
++defaults/win-64::libmambapy-2.0.5-py312h214f63a_1
++defaults/win-64::libsolv-0.7.30-hf2fb9eb_1
++defaults/win-64::libssh2-1.11.1-h2addb87_0
++defaults/win-64::libxml2-2.13.5-h24da03e_0
++defaults/win-64::lz4-c-1.9.4-h2bbff1b_1
++defaults/win-64::menuinst-2.2.0-py312h5da7b33_1
++defaults/win-64::nlohmann_json-3.11.2-h6c2663c_0
++defaults/win-64::pcre2-10.42-h0ff8eda_1
++defaults/win-64::pluggy-1.5.0-py312haa95532_0
++defaults/win-64::pycosat-0.6.6-py312h827c3e9_2
++defaults/win-64::pysocks-1.7.1-py312haa95532_0
++defaults/win-64::reproc-14.2.4-hd77b12b_2
++defaults/win-64::reproc-cpp-14.2.4-hd77b12b_2
++defaults/win-64::requests-2.32.3-py312haa95532_1
++defaults/win-64::ruamel.yaml-0.18.6-py312h827c3e9_0
++defaults/win-64::ruamel.yaml.clib-0.2.8-py312h827c3e9_0
++defaults/win-64::simdjson-3.10.1-h214f63a_0
++defaults/win-64::spdlog-1.11.0-h59b6b97_0
++defaults/win-64::tqdm-4.67.1-py312hfc267ef_0
++defaults/win-64::truststore-0.10.0-py312haa95532_0
++defaults/win-64::urllib3-2.3.0-py312haa95532_0
++defaults/win-64::win_inet_pton-1.1.0-py312haa95532_0
++defaults/win-64::yaml-cpp-0.8.0-hd77b12b_1
++defaults/win-64::zstandard-0.23.0-py312h4fc1ca9_1
++defaults/win-64::zstd-1.5.6-h8880b57_0
+# update specs: ['conda']
