@@ -1,8 +1,9 @@
 Artifacts_root: artifacts
 
 data_ingestion:
-    root_dir: artifacts
-    source_url: 
-    data_dir: artifacts/data_ingestion
+    root_dir: artifacts/data_ingestion
+    source_url: https://github.com/Robin-star-lab/Fever_Medication/raw/refs/heads/main/enhanced_fever_medicine_recommendation%20(1).zip
+    data_dir: artifacts/data_ingestion/fever_medic.zip
+    unzipped_data: artifacts/data_ingestion
     train_data_path: artifacts/data_ingestion
     test_data_path: artifacts/data_ingestion
