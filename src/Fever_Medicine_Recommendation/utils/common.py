@@ -4,6 +4,7 @@ import os
 from pathlib import Path
 from ensure import ensure_annotations
 from logger import fever_logger
+import joblib
 def read_yaml(filepath)->ConfigBox:
     with open(filepath) as yaml_file:
         config_data = yaml.safe_load(yaml_file)
@@ -17,6 +18,6 @@ def create_directories(path_to_directories:list):
 
 
 @ensure_annotations
-def save_data(filepath:Path):
-    with open(filepath, 'w') as data:
-        data.write()
+def save_preprocessor(path:Path,preprocessor):
+    with open(path,'wb') as f:
+        joblib.dump(preprocessor,path)

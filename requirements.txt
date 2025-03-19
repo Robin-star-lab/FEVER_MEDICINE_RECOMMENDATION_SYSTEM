@@ -2,6 +2,7 @@ pandas
 numpy
 ensure
 seaborn
+imbalanced-learn
 matplotlib
 pymongo
 python-box

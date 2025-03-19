@@ -7,3 +7,11 @@ data_ingestion:
     unzipped_data: artifacts/data_ingestion
     train_data_path: artifacts/data_ingestion
     test_data_path: artifacts/data_ingestion
+
+
+data_transformation:
+    root_dir: artifacts/data_transformation
+    data_path: artifacts/data_ingestion/enhanced_fever_medicine_recommendation.csv
+    train_data_path: artifacts/data_transformation
+    test_data_path: artifacts/data_transformation
+    preprocessor_path: artifacts/data_transformation
