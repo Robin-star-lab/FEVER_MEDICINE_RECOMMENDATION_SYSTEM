@@ -20,6 +20,6 @@ if __name__ == '__main__':
     try:
         pipeline = DataTransformationPipeline()
         pipeline.main()
-        fever_logger.info(f"********************{Stage}******************** Completed successfully")
+        fever_logger.info(f"********************{Stage}******************* Completed successfully")
     except Exception as e:
         raise CustomException(e,sys)
