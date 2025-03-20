@@ -1,1 +1,7 @@
-key: values
+parameters: 
+ penalty: l1
+ solver: liblinear
+ multiclass: ovr
+ fit_intercept: True
+ max_iter: 20
+ C: 0.001

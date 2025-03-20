@@ -18,4 +18,16 @@ class DataTransformationConfig:
     test_data_path: Path
     preprocessor_path: Path
     
-    
+
+@dataclass
+class ModelTrainerConfig:
+    root_dir: Path
+    model_path: Path
+    train_data_path: Path
+    metrics_path: Path
+    penalty: str
+    solver: str
+    multiclass: str
+    fit_intercept: bool
+    max_iter: int
+    C: float

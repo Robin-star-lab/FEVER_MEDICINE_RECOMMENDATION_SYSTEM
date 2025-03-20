@@ -1,7 +1,7 @@
 from src.Fever_Medicine_Recommendation.constants import *
 from src.Fever_Medicine_Recommendation.utils.common import read_yaml,create_directories
 from src.Fever_Medicine_Recommendation.entity.entities import DataIngestionConfig,DataTransformationConfig
-
+from src.Fever_Medicine_Recommendation.entity.entities import ModelTrainerConfig
 
 class DataIngestionConfigManager:
     def __init__(self, config_file_path = CONFIG_FILE_PATH):
@@ -45,4 +45,34 @@ class DataTransformationConfigManager:
         
         return data_transformation_config
         
+
+
+class ModelTrainerConfigManager:
+    def __init__(self,
+                 config_file_path=CONFIG_FILE_PATH,
+                 params_file_path=PARAMS_FILE_PATH):
+        self.config = read_yaml(config_file_path)
+        self.params = read_yaml(params_file_path)
+        
+        create_directories([self.config.Artifacts_root])
     
+    def get_model_trainer_config(self)->ModelTrainerConfig:
+        config = self.config.model_training
+        params = self.params.parameters
+        
+        create_directories([config.root_dir])
+        
+        get_training_config = ModelTrainerConfig(
+            root_dir = config.root_dir,
+            model_path = config.model_path,
+            train_data_path = config.train_data_path,
+            penalty = params.penalty,
+            metrics_path = config.metrics_path,
+            solver = params.solver,
+            multiclass = params.multiclass,
+            fit_intercept = params.fit_intercept,
+            max_iter = params.max_iter,
+            C = params.C
+            )
+        return get_training_config
+        

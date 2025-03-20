@@ -15,3 +15,11 @@ data_transformation:
     train_data_path: artifacts/data_transformation
     test_data_path: artifacts/data_transformation
     preprocessor_path: artifacts/data_transformation
+
+
+model_training:
+    root_dir: artifacts/model_training
+    model_path: artifacts/model_training
+    metrics_path: artifacts/model_training
+    preprocessor_path: artifacts/data_transformation/preprocessor.pkl
+    train_data_path: artifacts/data_transformation/train_data.csv

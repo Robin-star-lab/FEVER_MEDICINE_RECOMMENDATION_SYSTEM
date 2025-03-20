@@ -21,3 +21,8 @@ def create_directories(path_to_directories:list):
 def save_preprocessor(path:Path,preprocessor):
     with open(path,'wb') as f:
         joblib.dump(preprocessor,path)
+        
+@ensure_annotations
+def save_model(path:Path,model):
+    with open(path,'wb') as f:
+        joblib.dump(model,path)
