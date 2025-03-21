@@ -26,3 +26,15 @@ def save_preprocessor(path:Path,preprocessor):
 def save_model(path:Path,model):
     with open(path,'wb') as f:
         joblib.dump(model,path)
+
+
+@ensure_annotations
+def load_model(path:Path):
+    with open(path,'rb') as f:
+        model = joblib.load(path)
+        return model
+
+@ensure_annotations
+def save_metrics(path:Path,metrics):
+    with open(path,'w') as f:
+        f.write(str(metrics))

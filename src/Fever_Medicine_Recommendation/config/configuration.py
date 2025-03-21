@@ -2,6 +2,7 @@ from src.Fever_Medicine_Recommendation.constants import *
 from src.Fever_Medicine_Recommendation.utils.common import read_yaml,create_directories
 from src.Fever_Medicine_Recommendation.entity.entities import DataIngestionConfig,DataTransformationConfig
 from src.Fever_Medicine_Recommendation.entity.entities import ModelTrainerConfig
+from src.Fever_Medicine_Recommendation.entity.entities import ModelEvaluationConfig
 
 class DataIngestionConfigManager:
     def __init__(self, config_file_path = CONFIG_FILE_PATH):
@@ -75,4 +76,26 @@ class ModelTrainerConfigManager:
             C = params.C
             )
         return get_training_config
+
+
+
+class ModelEvaluationConfigManager:
+    def __init__(self,config_file_path = CONFIG_FILE_PATH):
+        self.config = read_yaml(config_file_path)
+        
+        create_directories([self.config.Artifacts_root])
+    
+    def get_model_evaluation_config(self)->ModelEvaluationConfig:
+        config = self.config.model_evaluation
+        
+        create_directories([config.root_dir])
+        
+        model_evaluation_config = ModelEvaluationConfig(
+            root_dir = config.root_dir,
+            model_path = config.model_path,
+            metrics_path = config.metrics_path,
+            test_data_path = config.test_data_path  
+        )
+        return model_evaluation_config
+        
         

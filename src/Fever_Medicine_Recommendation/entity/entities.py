@@ -31,3 +31,11 @@ class ModelTrainerConfig:
     fit_intercept: bool
     max_iter: int
     C: float
+
+
+@dataclass(frozen=True)
+class ModelEvaluationConfig:
+    root_dir: Path
+    test_data_path: Path
+    model_path: Path
+    metrics_path: Path
