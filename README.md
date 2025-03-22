@@ -1,14 +1,20 @@
-# FEVER_MEDICINE_RECOMMENDATION
-This is a fever medicine recommendation system.
-The recommendation is either paracetamol or ibuprofen and its based on factors that in the health dormain,
-would recommend either.
-The dataset containing the recommendation factors is trained and necessary actions to cater for the faults,
-in among the features taken into considerartion.Including: Missing values and the imbalance.
-The suggested model has performed better in the test set,suggeting No instances of overfitting.
-All parameters in the training are dynamic and can be tuned when need arise to improve the perfomance of the model.
-The perfomance of the model is evaluated using the metrics of accuracy,precision and recall.With,
-accuracy of the test set being 100%.
-The perfomance scores are saved in their respective files,within model training and model evaluation.
-Also,visualised!
+# Fever Medicine Recommendation System
+
+This system provides recommendations for fever medicine, suggesting either paracetamol or ibuprofen, based on relevant health factors. 
+
+The system is trained on a dataset containing these recommendation factors. Data preprocessing steps were implemented to address common issues, including:
+
+* **Missing values:** Appropriate imputation or removal techniques were used.
+* **Class imbalance:** Techniques such as oversampling or undersampling were applied to ensure balanced representation of both medicine types.
+
+The developed model demonstrates strong performance on the test set, indicating no signs of overfitting. All training parameters are dynamically configurable, allowing for fine-tuning to potentially enhance model performance.
+
+Model performance is evaluated using the following metrics:
+
+* Accuracy
+* Precision
+* Recall
+
+The test set achieved an accuracy of 100%. Performance scores for each metric are saved in separate files within the `model_training` and `model_evaluation` directories. Visualizations of the results are also included.
 
 
