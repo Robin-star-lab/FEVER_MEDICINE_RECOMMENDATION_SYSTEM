@@ -1,16 +1,14 @@
 # FEVER_MEDICINE_RECOMMENDATION
-The project aims to build a system that would easy the dilemma of decision making when it comes to which medicine to prescribe to the fever patients.
+This is a fever medicine recommendation system.
+The recommendation is either paracetamol or ibuprofen and its based on factors that in the health dormain,
+would recommend either.
+The dataset containing the recommendation factors is trained and necessary actions to cater for the faults,
+in among the features taken into considerartion.Including: Missing values and the imbalance.
+The suggested model has performed better in the test set,suggeting No instances of overfitting.
+All parameters in the training are dynamic and can be tuned when need arise to improve the perfomance of the model.
+The perfomance of the model is evaluated using the metrics of accuracy,precision and recall.With,
+accuracy of the test set being 100%.
+The perfomance scores are saved in their respective files,within model training and model evaluation.
+Also,visualised!
 
 
-File to update:
-1. config.yaml
-2. params.yaml
-3. schema.yaml
-4. entity
-5. constants
-6. configuration
-7. components
-8. pipeline
-9. main.py
-10. dvc.yaml
-11. app.py
