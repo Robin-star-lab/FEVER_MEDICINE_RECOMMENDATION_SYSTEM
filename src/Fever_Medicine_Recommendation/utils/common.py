@@ -22,6 +22,14 @@ def save_preprocessor(path:Path,preprocessor):
     with open(path,'wb') as f:
         joblib.dump(preprocessor,path)
         
+
+@ensure_annotations
+def load_preprocessor(path:Path):
+    with open(path,'rb') as f:
+        preprocessor = joblib.load(path)
+        
+        return preprocessor
+        
 @ensure_annotations
 def save_model(path:Path,model):
     with open(path,'wb') as f:
