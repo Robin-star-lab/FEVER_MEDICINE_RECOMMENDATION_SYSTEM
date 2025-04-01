@@ -7,7 +7,7 @@ import pandas as pd
 
 
 class Prediction:
-    def __init__(self, preprocessor,model):
+    def __init__(self):
         self.preprocessor = load_preprocessor(Path("artifacts\data_transformation\preprocessor.pkl"))
         self.model = load_model(Path("artifacts\model_training\model.regressor"))
         
