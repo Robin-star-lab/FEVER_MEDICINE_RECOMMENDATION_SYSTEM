@@ -77,7 +77,7 @@ class DataTransformation:
         preprocessor.fit(self.X_train)
     
         
-        from pathlib import Path
+        
 
 
         save_preprocessor(Path(os.path.join(self.config.preprocessor_path, 'preprocessor.pkl')), preprocessor)
